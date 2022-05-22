@@ -1,0 +1,131 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: lightgray;
+}
+
+#topo{
+    background-color: blue;
+    width: 50%;
+    height: 10%;
+    margin-top: 30px;
+}
+
+#topo h2{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 2.5%;
+}
+
+#corpo{
+    background-color: whitesmoke;
+    width: 50%;
+    height: 80%;
+}
+
+p {
+    position: relative;
+    left: 23px; top: 35px;
+    font-size: 15px;
+}
+
+input[id=name], p {
+    margin-top: 50px; 
+}
+
+input[type=radio]{
+    margin-top: 10px;
+}
+
+input[type=text], input[type=email], input[type=number]{
+    position: relative;
+    top: 25px;
+}
+
+label[for=name], label[for=genero1], label[for=email]{
+    position: relative;
+    left: 85px;
+}
+
+label[for=genero2]{
+    position: relative;
+    top: 20px; 
+    padding-left: 28px;
+}
+
+input[id=genero2]{
+    float: left;
+    position: relative;
+    top: 20px; left: 82px; 
+}
+
+input[id=genero1]{
+    position: relative;
+    left: 30px;
+}
+
+input[type=number]{
+    position: relative;
+    left: 157px;
+}
+
+label[for=idade]{
+    position: relative;
+    left: 193px;
+}
+
+input[type=email]{
+    margin-top: 50px;
+    width: 66%;
+    position: relative;
+    left: 35px;
+}
+
+input[type=password]{
+    margin-top: 60px;
+    float: right;
+    position: relative;
+    top: 25px; right: 46px;
+    padding-right: 33px;
+}
+
+
+label[for=password]{
+    position: relative;
+    top: 65px; left: 75px;
+    display: inline;
+    float: left;
+    padding-left: 5px;
+}
+
+label[for=conf-password] {
+    float: right;
+    position: relative;
+    top: 65px; left: 13px;
+}
+
+input[type=submit]{
+    margin-top: 70px;
+    height: 8%;
+    width: 66%;
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+}
+
+input[id=botao]{
+    background-color: rgb(238, 236, 236);
+    color: rgb(29, 29, 29);
+}
+
+input[id=botao-final]{
+    position: relative;
+    bottom: 50px;
+    color: whitesmoke;
+    background-color: blue;
+}
+
